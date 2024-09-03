@@ -1,0 +1,37 @@
+
+body{
+    background-color: #cbd2d8;
+}
+header{
+    background-color: #676f9e60;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+header marquee h1, header marquee h2{
+    display: inline;
+}
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: center;
+    max-height: 400px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+h3 {
+    color: #343a40;
+}
+
+img {
+    width: 200px; /* Atur lebar gambar */
+    height: 200px; /* Atur tinggi gambar */
+    object-fit: cover; /* Menjaga rasio aspek dan mengisi seluruh kontainer */
+    border-radius: 8px; /* Tambahkan radius untuk sudut yang melengkung (opsional) */
+}
+
